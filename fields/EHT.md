@@ -191,7 +191,7 @@ potentially the entire EHT field is given multiple times.
 | **`0x0007ff00`** | STA-ID | (same) |
 | **`0x00080000`** | Coding | (same) |
 | **`0x00f00000`** | MCS | (same) |
-| **`0x0f000000`** | NSS | (overlap) |
+| **`0x0f000000`** | NSS (0=1 spatial stream, 1=2 spatial streams, ...) | (overlap) |
 | **`0x10000000`** | Reserved | (overlap) |
 | **`0x20000000`** | Beamforming | (overlap) |
 | **`0x3f000000`** | (overlap) | Spatial Configuration |
