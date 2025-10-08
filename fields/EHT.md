@@ -86,7 +86,7 @@ Some values here could also appear for non-OFDMA PPDUs.
 | **`0x00001fe0`** | RU/MRU Index (see IEEE 802.11be Draft 1.3 section 36.3.2 "Subcarrier and resource allocation") |
 | **`0x003fe000`** | RU Allocation 1 |
 | **`0x00400000`** | RU Allocation 1 known |
-| **`0x3f000000`** | (reserved) |
+| **`0x3f800000`** | (reserved) |
 | **`0xc0000000`** | Primary 80 MHz Channel Position (0: lowest, 3: highest in frequency)|
 
 Note: The RU/MRU Size and RU/MRU Index are calculated fields, ideally the
