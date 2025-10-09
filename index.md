@@ -17,9 +17,9 @@ Discussion
 
 -   Archive at lore:
     <http://lore.kernel.org/radiotap>
--   [Discussion summaries on this wiki](../Discussion)
+-   [Discussion summaries on this wiki](./Discussion)
 -   After discussing, start the [standardisation
-    process](../Standardisation).
+    process](./Standardisation).
 
 Operating System support
 ------------------------
@@ -162,10 +162,10 @@ namespace reset additionally reserves bits 29 and 30 in each bitmask as
 well, extending the reserved numbers to 29, 30, 31, 61, 62, 63, etc.
 (`n * 32 - 3`, `n * 32 - 2`, `n * 32 - 1`).
 
--   [defined fields](/fields/defined)
--   [suggested fields](/fields/suggested)
--   [rejected fields](/fields/rejected)
--   [unofficially used fields](/fields/unofficial)
+-   [defined fields](./fields/defined)
+-   [suggested fields](./fields/suggested)
+-   [rejected fields](./fields/rejected)
+-   [unofficially used fields](./fields/unofficial)
 
 Alignment in Radiotap
 ---------------------
@@ -212,6 +212,6 @@ In this example, you would insert padding like this:
 
 One thing that can be confusing is the fact that there is some radiotap
 data that consists of multiple fields. For example the [Channel
-field](/fields/Channel) consists of two 16-bit quantities and
+field](./fields/Channel) consists of two 16-bit quantities and
 both of them require 16-bit alignment, although the Channel data
 consists of 32 bits in total.

@@ -29,5 +29,5 @@ Notes
 
 This field originates from NetBSD and is also used like this in Linux.
 
-Use bit `0x40` in the [flags field](/fields/Flags) to indicate *FCS CRC
+Use bit `0x40` in the [flags field](Flags) to indicate *FCS CRC
 failed*.

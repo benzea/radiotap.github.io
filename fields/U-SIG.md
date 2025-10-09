@@ -40,7 +40,7 @@ field to the end of the value field.
 | **`0x01f80000`** | BSS Color |
 | **`0xfe000000`** | TXOP |
 
-Note: If the "bad U-SIG CRC" bit is set, the [RX flags](/fields/RX flags)
+Note: If the "bad U-SIG CRC" bit is set, the [RX flags](RX flags)
 field should indicate PLCP CRC check failed as well, this bit just serves
 to differentiate where the CRC check failed.
 

@@ -1,6 +1,6 @@
 ---
 title: Fields
 ---
--   [defined fields](/fields/defined)
--   [suggested fields](/fields/suggested)
--   [rejected fields](/fields/rejected)
+-   [defined fields](./defined)
+-   [suggested fields](./suggested)
+-   [rejected fields](./rejected)

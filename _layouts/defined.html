@@ -7,7 +7,7 @@
   {% if page.categories contains 'defined' %}
     <tr>
       <td>{{page.type}}</td>
-      <td><a href="{{ page.url }}">{{page.title}}</a></td>
+      <td><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></td>
     </tr>
   {% endif %}
 {% endfor %}
