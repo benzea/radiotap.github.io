@@ -17,4 +17,4 @@ Hardware queue to send the frame on.
 Discussion
 ==========
 
-Only used in OpenBSD, clashes with ./TX flags\_ used by others.
+Only used in OpenBSD, clashes with [TX flags](./TX flags) used by others.
